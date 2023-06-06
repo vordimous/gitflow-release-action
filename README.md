@@ -1,6 +1,6 @@
 # Gitflow release action
 
-GitHub Action implementing the Gitflow release process. 
+GitHub Action implementing the Gitflow release process.
 
 ## Prerequisites
 
@@ -60,7 +60,9 @@ It returns `success`, `fail` or `skipped` (in case there are 0 commits and `allo
 It returns the number of commits included in the release in case of ending with a success.
 
 ## Example usage
+
 For `start` and `finish` a release in one command
+
 ```yml
 uses: HDBandit/gitflow-release-action@1.0.1
 with:
@@ -76,6 +78,7 @@ with:
 ```
 
 For `start` a release
+
 ```yml
 uses: HDBandit/gitflow-release-action@1.0.1
 with:
@@ -91,6 +94,7 @@ with:
 ```
 
 For `finish` a release
+
 ```yml
 uses: HDBandit/gitflow-release-action@1.0.1
 with:
